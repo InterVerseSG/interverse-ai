@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "name": "InterVerseSG San German Campus POI",
   "metadata": {
-    "version": "0.1.0",
+    "version": "0.2.0",
     "status": "partial_verified",
     "canonical_map_reference": "https://viaintersg.org/index.html",
     "coordinate_policy": "Only include coordinates when independently verified from a public geospatial source. Unverified POIs remain outside this file until verified.",
@@ -13,85 +13,20 @@
     }
   },
   "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "MarquisScienceHall",
-        "display_name": "Marquis Science Hall",
-        "navigation_anchor": "NAV_MarquisScienceHall",
-        "source": "OpenStreetMap via Mapcarta",
-        "osm_type": "way",
-        "osm_id": 535255802,
-        "verified": true
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-67.04889, 18.08391]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "EusebioLopezAcosta",
-        "display_name": "Eusebio López Acosta",
-        "navigation_anchor": "NAV_EusebioLopezAcosta",
-        "source": "OpenStreetMap via Mapcarta",
-        "osm_type": "way",
-        "osm_id": 535255804,
-        "verified": true
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-67.0495, 18.08419]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "FellowshipHall",
-        "display_name": "Fellowship Hall",
-        "navigation_anchor": "NAV_FellowshipHall",
-        "source": "OpenStreetMap via Mapcarta",
-        "osm_type": "way",
-        "osm_id": 535255808,
-        "verified": true
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-67.04842, 18.08416]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "PhranerHall",
-        "display_name": "Phraner Hall",
-        "navigation_anchor": "NAV_PhranerHall",
-        "source": "OpenStreetMap via Mapcarta",
-        "osm_type": "way",
-        "osm_id": 534722454,
-        "verified": true
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-67.05213, 18.08592]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "CostelloHall",
-        "display_name": "Costello Hall",
-        "navigation_anchor": "NAV_CostelloHall",
-        "source": "OpenStreetMap via Mapcarta",
-        "osm_type": "way",
-        "osm_id": 533914458,
-        "verified": true
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-67.04783, 18.08705]
-      }
-    }
+    {"type":"Feature","properties":{"id":"MarquisScienceHall","display_name":"Marquis Science Hall","navigation_anchor":"NAV_MarquisScienceHall","source":"OpenStreetMap via Mapcarta","osm_type":"way","osm_id":535255802,"verified":true},"geometry":{"type":"Point","coordinates":[-67.04889,18.08391]}},
+    {"type":"Feature","properties":{"id":"EusebioLopezAcosta","display_name":"Eusebio López Acosta","navigation_anchor":"NAV_EusebioLopezAcosta","source":"OpenStreetMap via Mapcarta","osm_type":"way","osm_id":535255804,"verified":true},"geometry":{"type":"Point","coordinates":[-67.0495,18.08419]}},
+    {"type":"Feature","properties":{"id":"FellowshipHall","display_name":"Fellowship Hall","navigation_anchor":"NAV_FellowshipHall","source":"OpenStreetMap via Mapcarta","osm_type":"way","osm_id":535255808,"verified":true},"geometry":{"type":"Point","coordinates":[-67.04842,18.08416]}},
+    {"type":"Feature","properties":{"id":"PhranerHall","display_name":"Phraner Hall","navigation_anchor":"NAV_PhranerHall","source":"OpenStreetMap via Mapcarta","osm_type":"way","osm_id":534722454,"verified":true},"geometry":{"type":"Point","coordinates":[-67.05213,18.08592]}},
+    {"type":"Feature","properties":{"id":"CostelloHall","display_name":"Costello Hall","navigation_anchor":"NAV_CostelloHall","source":"OpenStreetMap via Mapcarta","osm_type":"way","osm_id":533914458,"verified":true},"geometry":{"type":"Point","coordinates":[-67.04783,18.08705]}},
+    {"type":"Feature","properties":{"id":"CentroEstudiantesJamesABeverly","display_name":"Centro de Estudiantes James A. Beverly","navigation_anchor":"NAV_CentroEstudiantes","source":"OpenStreetMap via Mapcarta","osm_type":"way","osm_id":533905418,"verified":true},"geometry":{"type":"Point","coordinates":[-67.05079,18.08349]}},
+    {"type":"Feature","properties":{"id":"PolideportivoLuisFSambolin","display_name":"Polideportivo Luis F. Sambolín","navigation_anchor":"NAV_PolideportivoSambolin","source":"OpenStreetMap via Mapcarta","osm_type":"way","osm_id":533884274,"verified":true},"geometry":{"type":"Point","coordinates":[-67.05225,18.08336]}},
+    {"type":"Feature","properties":{"id":"PistaLuisFSambolinAlsina","display_name":"Pista Doctor Luis F. Sambolín Alsina","navigation_anchor":"NAV_PistaSambolin","source":"OpenStreetMap via Mapcarta","osm_type":"way","osm_id":756402476,"verified":true},"geometry":{"type":"Point","coordinates":[-67.05363,18.08345]}},
+    {"type":"Feature","properties":{"id":"JuanCancioOrtizCAI","display_name":"Juan Cancio Ortiz / CAI","navigation_anchor":"NAV_CAI","source":"OpenStreetMap via Mapcarta","osm_type":"way","osm_id":533903940,"verified":true},"geometry":{"type":"Point","coordinates":[-67.05191,18.08434]}},
+    {"type":"Feature","properties":{"id":"CapillaPaulAWolfeMemorial","display_name":"Capilla Paul A. Wolfe Memorial","navigation_anchor":"NAV_CapillaPaulAWolfe","source":"OpenStreetMap via Mapcarta","osm_type":"way","osm_id":535255819,"verified":true},"geometry":{"type":"Point","coordinates":[-67.04858,18.08447]}},
+    {"type":"Feature","properties":{"id":"CarlosJTorres","display_name":"Carlos J. Torres","navigation_anchor":"NAV_CarlosJTorres","source":"OpenStreetMap via Mapcarta","osm_type":"way","osm_id":535255806,"verified":true},"geometry":{"type":"Point","coordinates":[-67.04904,18.08462]}},
+    {"type":"Feature","properties":{"id":"LeopoldoOrtizJusino","display_name":"Leopoldo Ortiz Jusino","navigation_anchor":"NAV_LeopoldoOrtizJusino","source":"OpenStreetMap via Mapcarta","osm_type":"way","osm_id":533904372,"verified":true},"geometry":{"type":"Point","coordinates":[-67.04971,18.08448]}},
+    {"type":"Feature","properties":{"id":"KeiwingCottage","display_name":"Keiwing Cottage","navigation_anchor":"NAV_KeiwingCottage","source":"OpenStreetMap via Mapcarta","osm_type":"way","osm_id":535255800,"verified":true},"geometry":{"type":"Point","coordinates":[-67.04858,18.08561]}},
+    {"type":"Feature","properties":{"id":"CampusSchoolAnexo2","display_name":"Campus School Extension Anexo 2","navigation_anchor":"NAV_CampusSchoolAnexo2","source":"OpenStreetMap via Mapcarta","osm_type":"way","osm_id":533884268,"verified":true},"geometry":{"type":"Point","coordinates":[-67.05381,18.08499]}},
+    {"type":"Feature","properties":{"id":"CampusMain","display_name":"Universidad Interamericana de Puerto Rico - San Germán","navigation_anchor":"NAV_CampusMain","source":"OpenStreetMap via Mapcarta","osm_type":"way","osm_id":559731741,"verified":true},"geometry":{"type":"Point","coordinates":[-67.04997,18.08646]}}
   ]
 }
