@@ -1,0 +1,97 @@
+{
+  "type": "FeatureCollection",
+  "name": "InterVerseSG San German Campus POI",
+  "metadata": {
+    "version": "0.1.0",
+    "status": "partial_verified",
+    "canonical_map_reference": "https://viaintersg.org/index.html",
+    "coordinate_policy": "Only include coordinates when independently verified from a public geospatial source. Unverified POIs remain outside this file until verified.",
+    "temporary_unreal_origin": {
+      "poi_id": "MarquisScienceHall",
+      "longitude": -67.04889,
+      "latitude": 18.08391
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "MarquisScienceHall",
+        "display_name": "Marquis Science Hall",
+        "navigation_anchor": "NAV_MarquisScienceHall",
+        "source": "OpenStreetMap via Mapcarta",
+        "osm_type": "way",
+        "osm_id": 535255802,
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-67.04889, 18.08391]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "EusebioLopezAcosta",
+        "display_name": "Eusebio López Acosta",
+        "navigation_anchor": "NAV_EusebioLopezAcosta",
+        "source": "OpenStreetMap via Mapcarta",
+        "osm_type": "way",
+        "osm_id": 535255804,
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-67.0495, 18.08419]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "FellowshipHall",
+        "display_name": "Fellowship Hall",
+        "navigation_anchor": "NAV_FellowshipHall",
+        "source": "OpenStreetMap via Mapcarta",
+        "osm_type": "way",
+        "osm_id": 535255808,
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-67.04842, 18.08416]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "PhranerHall",
+        "display_name": "Phraner Hall",
+        "navigation_anchor": "NAV_PhranerHall",
+        "source": "OpenStreetMap via Mapcarta",
+        "osm_type": "way",
+        "osm_id": 534722454,
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-67.05213, 18.08592]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "CostelloHall",
+        "display_name": "Costello Hall",
+        "navigation_anchor": "NAV_CostelloHall",
+        "source": "OpenStreetMap via Mapcarta",
+        "osm_type": "way",
+        "osm_id": 533914458,
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-67.04783, 18.08705]
+      }
+    }
+  ]
+}
