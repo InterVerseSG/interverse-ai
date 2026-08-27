@@ -1,0 +1,33 @@
+{
+  "version": "0.1.0",
+  "actions": {
+    "answer": {
+      "requires_target": false,
+      "destructive": false
+    },
+    "navigate": {
+      "requires_target": true,
+      "target_source": "knowledge/campus_mvp.json",
+      "destructive": false
+    },
+    "create_object": {
+      "requires_object_type": true,
+      "requires_location": true,
+      "destructive": false
+    },
+    "move_object": {
+      "requires_target": true,
+      "requires_location": true,
+      "destructive": false
+    },
+    "delete_object": {
+      "requires_target": true,
+      "destructive": true,
+      "requires_confirmation": true
+    },
+    "open_panel": {
+      "requires_target": true,
+      "destructive": false
+    }
+  }
+}
