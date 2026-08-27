@@ -1,0 +1,49 @@
+{
+  "version": "0.1.0",
+  "cases": [
+    {
+      "id": "navigate_classroom_101",
+      "input": "Llévame al Salón 101",
+      "expected": {
+        "action": "navigate",
+        "target": "Classroom101",
+        "requires_confirmation": false
+      }
+    },
+    {
+      "id": "unknown_library",
+      "input": "Llévame a la biblioteca",
+      "expected": {
+        "action": "answer",
+        "must_not_invent": true
+      }
+    },
+    {
+      "id": "create_chairs",
+      "input": "Coloca 10 sillas en el Salón 101",
+      "expected": {
+        "action": "create_object",
+        "object_type": "chair",
+        "quantity": 10,
+        "location": "Classroom101",
+        "requires_confirmation": false
+      }
+    },
+    {
+      "id": "delete_requires_confirmation",
+      "input": "Borra la pantalla del Salón 101",
+      "expected": {
+        "action": "delete_object",
+        "requires_confirmation": true
+      }
+    },
+    {
+      "id": "unknown_asset",
+      "input": "Pon una nave espacial en recepción",
+      "expected": {
+        "action": "answer",
+        "must_not_invent": true
+      }
+    }
+  ]
+}
