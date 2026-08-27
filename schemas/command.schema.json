@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "InterVerseCommand",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "action",
+    "response",
+    "target",
+    "object_type",
+    "quantity",
+    "location",
+    "requires_confirmation"
+  ],
+  "properties": {
+    "action": {
+      "type": "string",
+      "enum": ["answer", "navigate", "create_object", "move_object", "delete_object", "open_panel"]
+    },
+    "response": {"type": "string"},
+    "target": {"type": ["string", "null"]},
+    "object_type": {"type": ["string", "null"]},
+    "quantity": {"type": ["integer", "null"], "minimum": 1, "maximum": 100},
+    "location": {"type": ["string", "null"]},
+    "requires_confirmation": {"type": "boolean"}
+  }
+}
