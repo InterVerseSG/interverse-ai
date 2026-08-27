@@ -1,0 +1,35 @@
+{
+  "version": "0.1.0",
+  "campus_id": "InterVerseSG-MVP",
+  "places": [
+    {
+      "id": "Entrance",
+      "display_name": "Entrada",
+      "nav_target": "NAV_Entrance",
+      "type": "outdoor"
+    },
+    {
+      "id": "Reception",
+      "display_name": "Recepción",
+      "nav_target": "NAV_Reception",
+      "type": "service"
+    },
+    {
+      "id": "NorthHallway",
+      "display_name": "Pasillo norte",
+      "nav_target": "NAV_NorthHallway",
+      "type": "hallway"
+    },
+    {
+      "id": "Classroom101",
+      "display_name": "Salón 101",
+      "nav_target": "NAV_Classroom101",
+      "type": "classroom"
+    }
+  ],
+  "edges": [
+    {"from": "Entrance", "to": "Reception", "bidirectional": true},
+    {"from": "Reception", "to": "NorthHallway", "bidirectional": true},
+    {"from": "NorthHallway", "to": "Classroom101", "bidirectional": true}
+  ]
+}
