@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "campus_id": "InterVerseSG",
+  "canonical_map": {
+    "name": "Vía Inter - SG",
+    "url": "https://viaintersg.org/index.html",
+    "map_engine": "Leaflet",
+    "role": "canonical_source_of_truth"
+  },
+  "rules": {
+    "use_only_verified_pois": true,
+    "preserve_display_names": true,
+    "preserve_geographic_coordinates": true,
+    "do_not_invent_locations": true,
+    "test_locations_are_not_production_pois": true
+  },
+  "poi_import_status": "pending_source_export",
+  "notes": "Production navigation must mirror the verified POIs and coordinates from Vía Inter - SG. Classroom101 and other MVP destinations are test-only until replaced by verified campus POIs."
+}
